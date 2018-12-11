@@ -21,6 +21,10 @@ public class RegisterFragment extends Fragment {
     private SQLiteDatabase database;
     private ContentValues insert;
 
+    public RegisterFragment(){
+        insert = new ContentValues();
+    }
+
     @Nullable
     @Override
 
